@@ -4,6 +4,7 @@ A simple FastAPI application with a contact form. Submissions are sent by email.
 This repo includes **Docker** and **Docker Compose** files for easy deployment.
 
 ---
+![Image](./style/image.png)
 
 ## 🚀 Deploy on AWS (EC2)
 
