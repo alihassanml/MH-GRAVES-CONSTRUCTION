@@ -6,4 +6,4 @@ services:
     container_name: GRAVES-form
     restart: always
     ports:
-      - "8000:8000"
+      - "8123:8000"
