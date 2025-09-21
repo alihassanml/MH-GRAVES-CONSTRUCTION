@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MH Graves Construction</title>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <meta name="description"
+    content="MH Graves Construction — General contracting, renovations, and new construction. Get a free estimate." />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">mhgravesconstruction.com</a>
+      <nav class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contactForm">Contact</a>
+        <a class="btn btn-primary" href="#contactForm">Request Estimate</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>MH GRAVES CONSTRUCTION</h1>
+        <p class="subtitle">Building Your Visions</p>
+        <a class="btn btn-primary btn-lg" href="#contactForm">Request Estimate</a>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">
+              <!-- house -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 10.5L12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-10.5z" fill="currentColor" />
+              </svg>
+            </div>
+            <h3>General Contracting</h3>
+          </article>
+          <article class="card">
+            <div class="icon">
+              <!-- roller -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4 6a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-4v3a2 2 0 0 1-2 2H7v-2h2v-3H6a2 2 0 0 1-2-2V6zm14 9h2v5h-2v-5z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <h3>Renovations</h3>
+          </article>
+          <article class="card">
+            <div class="icon">
+              <!-- buildings -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 21V7a1 1 0 0 1 1-1h6V3h4v3h6a1 1 0 0 1 1 1v14h-7v-6H10v6H3zm3-2h3v-4H6v4zm8 0h4V9h-4v10z"
+                  fill="currentColor" />
+              </svg>
+            </div>
+            <h3>New Construction</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div>
+          <h2>About</h2>
+          <p>MH Graves Construction is a licensed general contractor serving residential and commercial clients. We’re
+            committed to delivering high‑quality craftsmanship and exceptional service.</p>
+        </div>
+        <div>
+          <h2>Contact</h2>
+          <form id="contactForm" action="/contact" method="post">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your Name" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Tell us about your project..." required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MH Graves Construction. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+
+</html>
